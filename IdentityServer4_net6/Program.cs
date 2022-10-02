@@ -50,7 +50,7 @@ namespace IdentityServer4Test
 
                     webBuilder.UseHttpSys(options =>
                     {
-                        options.ClientCertificateMethod = ClientCertificateMethod.AllowCertificate;
+                        options.ClientCertificateMethod = ClientCertificateMethod.AllowRenegotation;
                         options.AllowSynchronousIO = false;
                         options.Authentication.Schemes = Microsoft.AspNetCore.Server.HttpSys.AuthenticationSchemes.NTLM | Microsoft.AspNetCore.Server.HttpSys.AuthenticationSchemes.Negotiate;
                         options.Authentication.AllowAnonymous = true;
