@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProtectedWeb", "ProtectedWe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RequestGenerator", "RequestGenerator\RequestGenerator.csproj", "{3B5F157F-45B5-43F5-B8DC-3185E5D431EA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServer4_net6", "IdentityServer4_net6\IdentityServer4_net6.csproj", "{57787B3E-C4FF-45CC-A15D-8DF7F10F3840}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{3B5F157F-45B5-43F5-B8DC-3185E5D431EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B5F157F-45B5-43F5-B8DC-3185E5D431EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B5F157F-45B5-43F5-B8DC-3185E5D431EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57787B3E-C4FF-45CC-A15D-8DF7F10F3840}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57787B3E-C4FF-45CC-A15D-8DF7F10F3840}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57787B3E-C4FF-45CC-A15D-8DF7F10F3840}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57787B3E-C4FF-45CC-A15D-8DF7F10F3840}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
